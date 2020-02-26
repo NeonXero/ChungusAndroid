@@ -52,7 +52,6 @@ public class PlayerAdapter extends RecyclerView.Adapter<PlayerAdapter.MyViewHold
     @Override
     public MyViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         ConstraintLayout v = (ConstraintLayout) LayoutInflater.from(parent.getContext()).inflate(R.layout.player_row, parent, false);
-
         ButterKnife.bind(this, parent);
         return new MyViewHolder(v);
     }
