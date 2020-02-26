@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Chungus Crew Admin</string>
+    <string name="api_error">Api error</string>
+
+
+    <string-array name="slop">
+        <item>slop1</item>
+        <item>slop2</item>
+        <item>etc</item>
+    </string-array>
+
+    <string name="placeholder_placeholder">%1$s on %2$s with %3$d hop(s)</string>
+
+    <string name="progress_dialog_text">Loading...</string>
+
+    <!-- Testing -->
+    <string name="lorem_full">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus condimentum quis nulla id maximus. Fusce congue, velit at viverra ornare, odio odio congue magna, eget venenatis libero leo in mi. In at justo eu ligula tincidunt ullamcorper non vitae nulla. Maecenas nec elit id felis pharetra viverra. Etiam maximus condimentum ornare. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas malesuada, ex a porta fermentum, elit erat mollis mi, quis dapibus dolor tellus at orci. Fusce et luctus orci.</string>
+    <string name="lorem_fifty">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque luctus turpis metus, quis feugiat sapien pellentesque a. Duis dapibus consequat velit ac luctus. Phasellus iaculis iaculis turpis eget ultrices. Etiam ex mauris, efficitur ac consequat non, dignissim vitae diam. Vivamus tincidunt maximus enim, at dignissim ipsum euismod eu. Sed auctor.</string>
+    <string name="lorem_twenty">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sed molestie lacus, non gravida odio. In venenatis, orci vel imperdiet.</string>
+    <string name="quick_brown_fox">The quick brown fox jumped over the lazy dog.</string>
+
+
+</resources>

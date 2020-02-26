@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Android Project Defaults -->
+    <color name="colorPrimary">#c604d8</color>
+    <color name="colorPrimaryDark">#00574B</color> <!-- not using for now? -->
+    <color name="colorAccent">#C604D8</color>
+
+    <!-- Base stuff -->
+    <color name="black">#000000</color>
+    <color name="white">#FEFFFFFF</color>
+    <color name="red">#ff0000</color>
+    <color name="green">#00BE07</color>
+    <color name="salmon">#ff5d5d</color>
+    <color name="gotenna_grey">#C1C1C1</color>
+    <color name="gotenna_blue">#2F3B9F</color>
+
+    <color name="gray">#595959</color>
+    <color name="desktop_blue">#5480B4</color>
+    <color name="desktop_blue_transp">#445480B4</color>
+    <color name="yellow">#D5CE04</color>
+    <color name="transparent">#00FFFFFF</color>
+
+    <!-- Button States -->
+    <color name="disabled">#CECECE</color>
+    <color name="enabled">#ff5d5d</color>
+
+    <!-- Incident severities -->
+    <color name="incident_red">#DE1E25</color>
+    <color name="incident_green">#42B839</color>
+    <color name="incident_yellow">#FAD944</color>
+
+    <!-- Unused colors, keeping in case we have to reference later -->
+    <!--<color name="purple_transp">#44c604d8</color>-->
+    <!--<color name="semi_transparent_gray">#99595959</color>-->
+
+</resources>

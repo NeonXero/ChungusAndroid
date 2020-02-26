@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+    <ImageView
+        android:id="@+id/ivCloseDrawer"
+        android:layout_width="@dimen/ui_img_buttons_width"
+        android:layout_height="@dimen/ui_img_buttons_height"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:scaleType="centerInside"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/icon_close_dark" />
+
+    <TextView
+        android:id="@+id/tvHeaderFirstLine"
+        style="@style/TitleRegular"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:gravity="center_horizontal"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/ivCloseDrawer"
+        app:layout_constraintTop_toBottomOf="@id/ivNavAvatarMenu" />
+
+    <TextView
+        android:id="@+id/tvHeaderSecondLine"
+        style="@style/TitleRegular"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:gravity="center_horizontal"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/ivCloseDrawer"
+        app:layout_constraintTop_toBottomOf="@+id/tvHeaderFirstLine" />
+
+    <TextView
+        android:id="@+id/tvHeaderConnection"
+        style="@style/TitleRegular"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:gravity="center_horizontal"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/ivCloseDrawer"
+        app:layout_constraintTop_toBottomOf="@+id/tvHeaderSecondLine" />
+
+    <!-- Looks like we're going back to having image here -->
+    <ImageView
+        android:id="@+id/ivNavAvatarMenu"
+        android:layout_width="@dimen/profile_width_big"
+        android:layout_height="@dimen/profile_height_big"
+        android:layout_marginTop="8dp"
+        android:adjustViewBounds="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/ivCloseDrawer"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@tools:sample/avatars[1]" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
