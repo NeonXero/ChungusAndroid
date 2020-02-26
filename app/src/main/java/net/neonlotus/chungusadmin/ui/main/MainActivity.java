@@ -32,6 +32,10 @@ public class MainActivity extends AppCompatActivity {
     private Gson gson;
     private ChungusApp mApplication;
 
+    /*
+    got rid of a lot of slop from Buddy, but still more to go
+    also keeping some for placeholder/reference bits
+     */
 
     //public MutableLiveData<Integer> hamburgerHelpState;
     //private List<String> lastVisitedFragments = new ArrayList<>();
